@@ -1,0 +1,214 @@
+@font-face {
+  font-family: "herculanum";
+  src: url("../font/herculanum/Herculanum-Regular.ttf");
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  width: 70%;
+  margin:auto;
+}
+
+.header{
+  margin: auto;
+  /*background: red;*/
+}
+.logo{
+  margin-top: 30px;
+  padding: 10px;
+  margin-left: 50px;
+  float: left;
+}
+.xingfu{
+  margin-left: 350px;
+  padding: 15px;
+  font-size: 42px;
+  font-family: "herculanum";
+}
+
+.navigation{
+  font-family: "herculanum";
+  padding: 40px;
+  margin-left: 10px;
+  margin-top: 20px;
+  width: 130px;
+  /*background: green;*/
+  text-align: center;
+  float: left;
+}
+.navigation a{
+  width: 125px;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+  display: grid;
+}
+.home{
+  width: 130px;
+  margin:20px;
+  border: 2px;
+  border-style: solid;
+  border-radius: 15px;
+  border-color: #00DAFF;
+}
+.home:hover {
+  background-color: #00DAFF;
+}
+.artwork{
+  width: 130px;
+  margin:20px;
+  border: 2px;
+  border-style: solid;
+  border-radius: 15px;
+  border-color: #00DAFF;
+}
+.artwork:hover {
+  background-color: #00DAFF;
+}
+.aboutme{
+  width: 130px;
+  margin:20px;
+  border: 2px;
+  border-style: solid;
+  border-radius: 15px;
+  border-color: #00DAFF;
+}
+.aboutme:hover {
+    background-color: #00DAFF;
+}
+.contact{
+  width: 130px;
+  margin:20px;
+  border: 2px;
+  border-style: solid;
+  border-radius: 15px;
+  border-color: #00DAFF;
+  background-color: #00DAFF;
+}
+.contact:hover {
+    background-color: #00DAFF;
+}
+
+.contactbox {
+  /*background: red;*/
+  width: 630px;
+  margin-top: 100px;
+  margin-left: 256px;
+  position: absolute;
+}
+.box {
+  position: relative;
+  text-align: center;
+  width: 628px;
+  height: 150px;
+  border: 2px;
+  border-style: solid;
+  border-color: #000;
+}
+
+.contactinfo {
+  margin-left: 13px;
+  font-family: "herculanum";
+  font-size: 25px;
+}
+
+.footer {
+  width: 100%;
+  color: #000;
+  background-color: #e3e3e3;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+}
+
+@media(max-width: 1439px){
+  .container{
+    width: 100%;
+  }
+  .footer{
+    width: 100%;
+    position: fixed;
+  }
+}
+
+@media(max-width: 1024px){
+  .container{
+    width: 100%;
+  }
+  .footer{
+    width: 100%;
+    position: fixed;
+  }
+}
+
+@media(max-width: 768px){
+  .container{
+    width: 90%;
+    margin: auto;
+  }
+  .footer{
+    width: 100%;
+    position: fixed;
+  }
+  .header{
+    margin-top: 50px;
+  }
+  .logo{
+    margin-left: 160px;
+  }
+  .xingfu{
+    width: 100%;
+    margin-left: 390px;
+    /*background: red;*/
+  }
+  .navigation{
+    margin-left: 115px;
+    text-align: center;
+    width: 800px;
+    padding: 0px;
+    /*background: red;*/
+  }
+  .home{
+    display: inline-block;
+  }
+  .artwork{
+    display: inline-block;
+  }
+  .aboutme{
+    display: inline-block;
+  }
+  .contact{
+    display: inline-block;
+  }
+  .contactbox{
+    /*background: blue;*/
+    margin-top: 150px;
+    margin-left: 210px;
+  }
+}
+
+@media(max-width: 425px){
+  .container{
+    width: 100%;
+    margin: auto;
+  }
+  .xingfu{
+    width: 120%;
+    margin-left: 180px;
+  }
+  .logo{
+    display: none;
+  }
+  .navigation{
+    margin-left: 10px;
+  }
+  .contactbox{
+    margin-left: 90px;
+  }
+}
